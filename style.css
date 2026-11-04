@@ -1,0 +1,82 @@
+/*This is a comment in CSS. */
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	color: #26343a;
+	margin: 0;
+	}
+	
+header, footer {
+	background-color: #e4f2dc;
+	padding: 24px;
+	text-align: center;
+	}
+	
+nav	{
+	background-color: #386641;
+	padding: 12px;
+	}
+	
+nav a {
+	color: white;
+	margin-right: 16px;
+	text-decoration: none;
+	}
+	
+nav a:hover {
+	text-decoration: underline;
+	}
+	
+main {
+	max-width: 900px;
+	margin: auto;
+	padding: 20px;
+	}
+	
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	}
+	
+table {
+	width: 100%;
+	border-collapse: collapse;
+	}
+	
+th, 
+td {	
+	border: 1px solid #71866b;
+	padding: 10px;
+	text-align: left;
+	}
+	
+th {
+	background-color: #e4f2dc;
+	}	
+
+	
+tbody tr:nth-child(even) {
+	background-color: #f3f7ef;
+	}
+	
+fieldset {
+	margin: 16px 0;
+	}
+	
+.button {
+	background-color: #386641;
+	color: white;
+	padding: 10px 16px;
+	border: none;
+	cursor: pointer;
+	}
+	
+#contact {
+	background-color: #f3f7ef;
+	padding: 16px;
+	}
+	
+	
